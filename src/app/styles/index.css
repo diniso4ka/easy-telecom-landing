@@ -1,0 +1,13 @@
+@import "./common.css";
+@import "./colors.css";
+@import "./null.css";
+@import "./fonts/index.css";
+
+.App{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-main-color);
+    font-family: var(--primary-font-family);
+    min-height: 100vh;
+    color: var(--primary-font-color)
+}
